@@ -51,3 +51,10 @@ Notebook  _notebooks/model_predictions.ipynb_
 
 Predictions will be made using Kepler Objects of Interest that are yet considered candidates of being exo-planets, ordering those by decreasing probability of having a light kurve that evidencnes an exo-planet.
 
+### External links
+
+Article in Medium: 
+https://medium.com/@miguel.blanco.marcos/exonet-an-ai-saturdays-project-a1bda907bdef
+
+Inspired in:
+Shallue, Christopher J., and Andrew Vanderburg. “Identifying Exoplanets with Deep Learning: A Five-Planet Resonant Chain Around Kepler-80 and an Eighth Planet Around Kepler-90.” The Astronomical Journal 155.2 (2018): 94. Crossref. Web. (DOI: 10.3847/1538-3881/aa9e09)
