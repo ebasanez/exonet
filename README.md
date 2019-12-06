@@ -11,7 +11,7 @@ Planet detection using Convolutional Neural Networks
 ## Objective
 
 Analyze state-of-the-art research about planet detection using transit method 
-(see https://en.wikipedia.org/wiki/Methods_of_detecting_exoplanets) and use advanced machine learning techn	ics to improve 
+(see https://en.wikipedia.org/wiki/Methods_of_detecting_exoplanets) and use advanced machine learning techniques to enble further discoveries.
 
 ## Pipeline
 
@@ -21,7 +21,7 @@ For this project pipeline, different modules are used:
 
 Module _scr/com/saturdaysai/exonet/lightKurveApi/lightKurveApiCLient.py_
 
-Raw data will be obtained from Kepler records stores at MAST(Mikulski Archive for Space Telescopes) using Python library LightKurve to access their api.
+Raw data will be obtained from Kepler records stored at MAST (Mikulski Archive for Space Telescopes) using Python library LightKurve to access their api.
 https://archive.stsci.edu/mast.html
 
 https://docs.lightkurve.org/
@@ -36,20 +36,20 @@ Using that information, data will be normalized and re-sampled to fixed length t
 
 Notebook _notebooks/model_definition.ipynb_
 
-This notebook uses tensors generated (ans stored in /data folder) to define a and optimize a CNN based model. 
+This notebook uses tensors generated (and stored in /data folder) to define and optimize a CNN based model. 
 Hyper-parameters present in this notebook are the result of iterative training.
 
 ### Model validation
 
 Notebook _notebooks/model_evaluation.ipynb_
 
-Loads model defined in previous step and validates it using validation sub-dataset, obtaining cross entropy loss, accuracy and auc.
+Loads model defined in previous step and validates it using validation sub-dataset, obtaining cross-entropy loss, accuracy, AUC, and precision vs recall curve.
 
 ### Production stage
 
 Notebook  _notebooks/model_predictions.ipynb_
 
-Predictions will be made using Kepler Objects of Interest that are yet considered candidates of being exo-planets, ordering those by decreasing probability of having a light kurve that evidencnes an exo-planet.
+Predictions will be made using Kepler Objects of Interest which have candidates of being exo-planets, ordering those by decreasing likelihood of having a light curve that evidences the presence of an exoplanet.
 
 ### External links
 
